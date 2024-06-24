@@ -1,0 +1,8 @@
+.backgroundColor {
+    background-Color: red;
+  };
+.timelineStyles {
+    overflow-X: "auto";
+    padding: "10px";
+    display: "flex";
+  };

@@ -1,0 +1,13 @@
+.workStyle {
+    background-Color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column
+  };
+
+.projectCont {
+  flex: 1;
+}
+
+.titleCont {
+  flex: .5;
+}

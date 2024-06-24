@@ -1,49 +1,33 @@
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-
+import "../css/header.css";
 const Header = () => {
-  const anchorCont = {
-    display: "flex",
-    flexdirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    height: "6vh",
-  };
-  const anchor = {
-    flex: 1,
-  };
-  const aStyles = {
-    color: "white",
-    textDecoration: "none",
-  };
-
   return (
     <AppBar position="relative">
-      <Toolbar style={anchorCont}>
-        <div></div>
-        <Typography variant="h6" style={anchor}>
-          <a href="#home" style={aStyles}>
+      <Toolbar className="anchorCont">
+        <Typography variant="h6" className="anchor">
+          <a href="#home" className="aStyles">
             ./Home
           </a>
         </Typography>
-        <Typography variant="h6" style={anchor}>
-          <a href="#expertise" style={aStyles}>
+        <Typography variant="h6" className="anchor">
+          <a href="#expertise" className="aStyles">
             ./Expertise
           </a>
         </Typography>
-        <Typography variant="h6" style={anchor}>
-          <a href="#work" style={aStyles}>
+        <Typography variant="h6" className="anchor">
+          <a href="#work" className="aStyles">
             ./Work
           </a>
         </Typography>
-        <Typography variant="h6" style={anchor}>
-          <a href="#experience" style={aStyles}>
+        <Typography variant="h6" className="anchor">
+          <a href="#experience" className="aStyles">
             ./Experience
           </a>
         </Typography>
-        <Typography variant="h6" style={anchor}>
-          <a href="#contact" style={aStyles}>
+        <Typography variant="h6" className="anchor">
+          <a href="#contact" className="aStyles">
             ./Contact
           </a>
         </Typography>

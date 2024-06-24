@@ -1,0 +1,15 @@
+.anchorCont {
+    display: flex;
+    flex-direction: row;
+    justify-Content: center;
+    align-Items: center;
+    height: 6vh;
+    background-Color: rgb(0, 189, 0);
+  };
+.anchor  {
+    flex: 1;
+  };
+.aStyles  {
+    color: white;
+    text-Decoration: none;
+  };

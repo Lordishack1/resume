@@ -1,0 +1,55 @@
+.homeStyle {
+  background-image: url('../images/BlueBackground.jpeg');
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  margin-left: 125px;
+  margin-top: 21%;
+  margin-bottom: 21%
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+}
+
+.centering {
+  flex: 0.5;
+}
+
+.title {
+  border: 2px solid rgb(0, 189, 0);
+  padding: .7%;
+  width: 40%;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(0, 189, 0);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.handStyle {
+  width: 50px;
+  height: 50px;
+  flex: 0.1;
+}
+
+.titleStyle {
+  flex: 1;
+  font-size: 20px;
+  padding-left: 5%;
+}
+h3 {
+  font-size: 350%;
+  margin: 5px 0;
+}

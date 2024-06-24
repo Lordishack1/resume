@@ -1,0 +1,16 @@
+#contact {
+    background-Color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-Content: center;
+    align-Items: center;
+  };
+.image {
+    height: 150px;
+    width: 100px;
+    border-Radius: 100px;
+    border: 2px solid black;
+    margin: 20px;
+  };
+.contactStyle {};
+.reviewStyle {};

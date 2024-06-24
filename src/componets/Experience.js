@@ -6,19 +6,11 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
-
+import "../css/experiance.css";
 export default function Experiance() {
-  const backgroundColor = {
-    backgroundColor: "red",
-  };
-  const timelineStyles = {
-    overflowX: "auto", // Allow horizontal scrolling if needed
-    padding: "10px",
-    display: "flex",
-  };
   return (
-    <div style={backgroundColor}>
-      <Timeline id="experience" style={timelineStyles} position="alternate">
+    <div className="backgroundColor">
+      <Timeline id="experience" className="timelineStyles" position="alternate">
         <TimelineItem>
           <TimelineOppositeContent>
             <Typography variant="body2" color="text.secondary">

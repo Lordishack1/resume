@@ -1,27 +1,12 @@
 import me from "../images/Me.PNG";
+import "../css/contact.css";
 export default function Contact() {
-  const contact = {
-    backgroundColor: "blue",
-    display: "flex",
-    flexdirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-  };
-  const image = {
-    height: "150px",
-    width: "100px",
-    borderRadius: "100px",
-    border: "2px solid black",
-    margin: "20px",
-  };
-  const contactStyle = {};
-  const reviewStyle = {};
   return (
-    <div id="contact" style={contact}>
-      <div style={contactStyle}>
-        <img src={me} alt="Headshot" style={image} />
+    <div id="contact">
+      <div className="contactStyle">
+        <img src={me} alt="Headshot" className="image" />
       </div>
-      <div style={reviewStyle}>
+      <div className="reviewStyle">
         <h1>Reviews</h1>
       </div>
     </div>
