@@ -1,10 +1,26 @@
 import "../css/expertise.css";
-
+import { useInView } from "react-intersection-observer";
 export default function Expertise() {
+  const { ref: splitRef, inView: splitInView } = useInView({
+    triggerOnce: true,
+  });
+  const { ref: subTitleRef, inView: subTitleInView } = useInView({
+    triggerOnce: true,
+  });
+
   return (
     <div className="container">
-      <h1 className="subTitle">./Skills</h1>
-      <div className="split" id="expertise">
+      <h1
+        ref={subTitleRef}
+        className={`subTitle ${subTitleInView ? "animate" : ""}`}
+      >
+        ./Expertise
+      </h1>
+      <div
+        ref={splitRef}
+        className={`split ${splitInView ? "animate" : ""}`}
+        id="expertise"
+      >
         <div className="front">
           <h1 className="under">Front End</h1>
           <div className="skillsContainer">

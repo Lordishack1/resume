@@ -1,16 +1,48 @@
-#contact {
-    background-Color: blue;
-    display: flex;
-    flex-direction: row;
-    justify-Content: center;
-    align-Items: center;
-  };
-.image {
-    height: 150px;
-    width: 100px;
-    border-Radius: 100px;
-    border: 2px solid black;
-    margin: 20px;
-  };
-.contactStyle {};
-.reviewStyle {};
+.contactContSplit {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.contactCont {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 50px 80px; 
+  text-align: left;
+}
+
+.info {
+  border: 2px solid rgb(0, 189, 0);
+  padding: 10px;
+  background-color: rgb(0, 189, 0);
+  border-radius: 20px;
+}
+
+.icons {
+  color: "white";
+  font-Size: 24px;
+  border: 2px solid rgb(0, 189, 0);
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reviewCont {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 20px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.anc {
+  text-decoration: none;
+  color: white;
+}

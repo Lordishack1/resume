@@ -1,15 +1,18 @@
 .anchorCont {
     display: flex;
     flex-direction: row;
-    justify-Content: center;
-    align-Items: center;
-    height: 6vh;
+    height: 8vh;
     background-Color: rgb(0, 189, 0);
-  };
-.anchor  {
-    flex: 1;
-  };
-.aStyles  {
-    color: white;
-    text-Decoration: none;
-  };
+    justify-content: center;
+    align-items: center
+};
+
+.icon {
+  flex: 1;
+  display: flex;
+  align-items: right
+};
+
+.symbol {
+  flex: 1;
+}
