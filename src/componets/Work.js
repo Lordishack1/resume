@@ -10,9 +10,9 @@ export default function Work() {
 
   const projects = [
     {
-      title: "title1",
-      des: "this is the description",
-      lang: "java,Python",
+      title: "Laps",
+      des: "Tracks Speed/Distance while snowboard/skiing",
+      lang: "React Native, JavaScript",
       image: blackTechWave,
     },
     {

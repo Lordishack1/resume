@@ -72,8 +72,9 @@ body {
   border-radius: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 1rem;
+  width: auto;
 }
 
 .handStyle {
@@ -88,7 +89,7 @@ body {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 2em;
   margin: 0.5rem 0;
 }
 
@@ -124,7 +125,8 @@ p {
   }
 
   .title {
-    width: auto;
+    width: fit-content;
+    justify-content: left;
   }
 
   .titleStyle {
@@ -132,7 +134,7 @@ p {
   }
 
   h3 {
-    font-size: 1.5em;
+    font-size: 3.5em;
   }
 
   p {

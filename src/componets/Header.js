@@ -7,6 +7,7 @@ const Header = () => {
   const email = "isaac.stertzbach@gmail.com";
   const linkedinUrl = "https://www.linkedin.com/in/isaac-stertzbach-65545b172";
   const githubUrl = "https://github.com/Lordishack1";
+  const pdfUrl = "../images/Resume.pdf";
 
   const handleEmailClick = () => {
     window.open(`mailto:${email}`, "_blank");
@@ -18,7 +19,12 @@ const Header = () => {
         <p>Isaac Stertzbach</p>
       </div>
       <div className="iconsRight">
-        <a href="/resume" className="anc">
+        <a
+          href={pdfUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="anc"
+        >
           Resume
         </a>
         <MdOutlineEmail className="icon" onClick={handleEmailClick} />
