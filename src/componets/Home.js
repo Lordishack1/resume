@@ -1,4 +1,4 @@
-import me from "../images/CompMan.png";
+import me from "../images/compCoding3.png";
 import hand from "../images/HandWave2.webp";
 import "../css/home.css";
 export default function Home() {

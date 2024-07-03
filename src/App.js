@@ -12,11 +12,21 @@ function App() {
     <div className="App">
       <Header className="headerStyle" />
       <Home className="homeStyle" />
-      <Expertise className="expertiseStyle" />
       <Work className="workStyle" />
+      <Expertise className="expertiseStyle" />
       <Contact className="contactStyle" />
     </div>
   );
 }
 //<Experiance className="experianceStyle" />
 export default App;
+
+/*
+color palette 
+#0554F2 
+#076DF2
+#F2F2F2
+
+#3889F2
+#ODODOD
+*/

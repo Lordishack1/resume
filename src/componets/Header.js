@@ -1,14 +1,43 @@
-import { VscThreeBars } from "react-icons/vsc";
 import "../css/header.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Header = () => {
+  const email = "isaac.stertzbach@gmail.com";
+  const linkedinUrl = "https://www.linkedin.com/in/isaac-stertzbach-65545b172";
+  const githubUrl = "https://github.com/Lordishack1";
+
+  const handleEmailClick = () => {
+    window.open(`mailto:${email}`, "_blank");
+  };
+
   return (
-    <div className="anchorCont">
-      <div className="symbol">
-        <h1>HELLO</h1>
+    <div className="flexCont">
+      <div className="name">
+        <p>Isaac Stertzbach</p>
       </div>
-      <div className="icon">
-        <VscThreeBars style={{ color: "black", fontSize: "50px" }} />
+      <div className="iconsRight">
+        <a href="/resume" className="anc">
+          Resume
+        </a>
+        <MdOutlineEmail className="icon" onClick={handleEmailClick} />
+        <a
+          className="anc"
+          href={linkedinUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedinIn className="icon" />
+        </a>
+        <a
+          className="anc"
+          href={githubUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub className="icon" />
+        </a>
       </div>
     </div>
   );

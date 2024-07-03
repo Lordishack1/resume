@@ -1,5 +1,5 @@
 .contactContSplit {
-  background-color: black;
+  background-color: #F2F2F2;
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -7,42 +7,47 @@
 
 .contactCont {
   flex: 1;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
-  padding: 20px 0 50px 80px; 
+  padding: 2% 5% 3% 3%; 
   text-align: left;
 }
 
 .info {
-  border: 2px solid rgb(0, 189, 0);
-  padding: 10px;
-  background-color: rgb(0, 189, 0);
+  border: 2px solid #0554F2;
+  padding: 2%;
+  background-color: #0554F2;
   border-radius: 20px;
+  color: white
 }
 
 .icons {
   color: "white";
-  font-Size: 24px;
-  border: 2px solid rgb(0, 189, 0);
-  background-color: black;
-  padding: 5px;
+  font-Size: 150%;
+  border: 2px solid #0554F2;
+  background-color: white;
+  padding: 1%;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .reviewCont {
   flex: 1;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: left;
-  padding: 20px;
+  padding: 2.5%;
   text-align: left;
-  margin-left: 40px;
 }
 
 .anc {
   text-decoration: none;
-  color: white;
+  color: black;
+}
+
+p {
+  font-size: large;
+  padding: .5%;
 }

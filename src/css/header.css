@@ -1,18 +1,31 @@
-.anchorCont {
-    display: flex;
-    flex-direction: row;
-    height: 8vh;
-    background-Color: rgb(0, 189, 0);
-    justify-content: center;
-    align-items: center
-};
+.flexCont {
+  display: flex;
+  flex-direction: row;
+  background-color: #F2F2F2;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.name {
+  flex: 1;
+  text-align: left;
+  margin-left: 4%;
+}
+
+.iconsRight {
+  display: flex;
+  align-items: center;
+  margin-right: 4%;
+}
 
 .icon {
-  flex: 1;
-  display: flex;
-  align-items: right
-};
+  font-size: 140%;
+  padding: 0.5rem; 
+  cursor: pointer;
+}
 
-.symbol {
-  flex: 1;
+.anc {
+  text-decoration: none;
+  color: black;
 }

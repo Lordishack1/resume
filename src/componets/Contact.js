@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 export default function Contact() {
-  const email = "isaac.stertzbach@gmail.com"; // Replace with your email address
+  const email = "isaac.stertzbach@gmail.com";
   const linkedinUrl = "https://www.linkedin.com/in/isaac-stertzbach-65545b172";
   const githubUrl = "https://github.com/Lordishack1";
 
@@ -19,6 +19,7 @@ export default function Contact() {
           <p>
             I would love to help just send me email and we can start talking!
           </p>
+          <p>Email: Isaac.stertzbach@gmail.com</p>
           <div>
             <MdOutlineEmail className="icons" onClick={handleEmailClick} />
             <a

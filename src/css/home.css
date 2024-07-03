@@ -29,61 +29,113 @@
   100% { transform: rotate(0deg); }
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
 .homeStyle {
-  background-image: url('../images/BlueBackground.jpeg');
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #F2F2F2;
+  text-align: center;
 }
 
 .image {
-  width: 500px;
-  height: 500px;
-  margin-left: 125px;
-  margin-top: 21%;
-  margin-bottom: 21%;
+  width: 80%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 50%;
+  margin: 0.5rem auto;
 }
 
 .text {
-  flex: 1;
-  text-align: left;
   animation: slideInFromLeft 1s ease-out forwards;
+  margin-top: -1rem; 
+  margin-bottom: 1rem;
 }
 
 .centering {
-  flex: 0.5;
   animation: slideInFromRight 1s ease-out forwards;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
 }
 
 .title {
-  border: 2px solid rgb(0, 189, 0);
-  padding: .7%;
-  width: 40%;
+  border: 2px solid #0554F2;
+  padding: 1rem;
   color: white;
-  font-size: 20px;
-  background-color: rgb(0, 189, 0);
+  background-color: #0554F2;
   border-radius: 50px;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .handStyle {
-  width: 50px;
-  height: 50px;
-  flex: 0.1;
-  animation: wave 2s ease-in-out 5s infinite;
+  width: 40px;
+  height: auto;
+  margin-right: 1rem;
+  animation: wave 2s infinite;
 }
 
 .titleStyle {
-  flex: 1;
-  font-size: 20px;
-  padding-left: 5%;
+  font-size: 1.5em;
 }
+
 h3 {
-  font-size: 350%;
-  margin: 5px 0;
+  font-size: 1.25em;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .homeStyle {
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+  }
+
+  .image {
+    margin-left: 2%;
+    margin-top: 10%; 
+    margin-bottom: 10%; 
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    flex: 1;
+    padding-right: 4%;
+    margin-top: -1rem; 
+  }
+
+  .centering {
+    flex: 0.7;
+    margin-top: -1rem; 
+  }
+
+  .title {
+    width: auto;
+  }
+
+  .titleStyle {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
 }

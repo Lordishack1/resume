@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import "../css/work.css";
 import blackTechWave from "../images/BlackTechWave.jpeg";
 import techWave from "../images/techWave.jpeg";
@@ -78,17 +79,10 @@ export default function Work() {
       <div className="titleCont">
         <h1 className="titleShow">./Showroom</h1>
       </div>
-      <div
-        className="projectCont"
-        style={{
-          backgroundImage: `url(${projects[currentIndex].image})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+      <div className="projectCont">
         <div className="navButton">
           <div onClick={handlePrev}>
-            <p>&#x1F448;</p>
+            <MdKeyboardArrowLeft className="arrowLeft" />
           </div>
         </div>
         <div className="project">
@@ -103,7 +97,7 @@ export default function Work() {
         </div>
         <div className="navButton">
           <div onClick={handleNext}>
-            <p>&#x1F449;</p>
+            <MdKeyboardArrowRight className="arrow" />
           </div>
         </div>
       </div>
